@@ -6,12 +6,14 @@ body
 
 #page
 {
+	overflow: scroll;
 	text-align: center;
+	height:100vh;
 }
 .image-bar
 {
 	z-index: -1;
-	position:fixed;
+	position:fixed; 
 	overflow: hidden;
 	height: 14.5vw;
 }
@@ -25,9 +27,15 @@ body
 	position: relative;
 	width: 100vw;
 }
-.menu-bar
+#menu-bar
 {
 	background: #9c1c25;
+}
+.menu-bar-fixed
+{
+	width:100vw;
+	top:0;
+	position: fixed;
 }
 .menu-center-container
 {
